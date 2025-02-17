@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: "C:/Users/thank/OneDrive/\uBC14\uD0D5 \uD654\uBA74/Unity/program/Packages"
-m_EditorVersion: 2022.3.57f1 (9d8bd91adc0a)
+m_EditorVersion: 2022.3.58f1 (ed7f6eacb62e)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.6.0
   testable: 0
@@ -120,8 +120,10 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.6.0
+    - 2.7.1
     compatible:
     - 2.6.0
+    - 2.7.1
     recommended: 2.6.0
     deprecated: []
   dependencies: []
@@ -3525,4 +3527,4 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
-m_BuiltInPackagesHash: 0e79eb92967ecd3a26ec8507207bbabe1c05e21d
+m_BuiltInPackagesHash: 641397b496b5554641922a6da135bb42b0ea4cb5
