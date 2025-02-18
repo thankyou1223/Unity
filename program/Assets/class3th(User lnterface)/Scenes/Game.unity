@@ -737,6 +737,10 @@ MonoBehaviour:
   - {fileID: 515156804}
   - {fileID: 147220886}
   - {fileID: 759841912}
+  contentList:
+  - S T A R T
+  - S H O P
+  - Q U I T
 --- !u!4 &966821449
 Transform:
   m_ObjectHideFlags: 0

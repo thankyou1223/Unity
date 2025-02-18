@@ -6,15 +6,27 @@ using UnityEngine.UI;
 public class ButtonManager : MonoBehaviour
 {
     public Text [ ] textList;
+    public string[] contentList;
     void Start()
     {
         for( int i = 0; i < textList.Length; i++)
         {
-            Debug.Log("textList");
+            textList[i].text = contentList[i];
         }
     }
 
-    // Update is called once per frame
+    public void Execute()
+    {
+        Debug.Log("Execute");
+    }
+    public void Shop()
+    {
+        Debug.Log("Shop");
+    }
+    public void Quit()
+    {
+        Debug.Log("Quit");
+    }
     void Update()
     {
         
