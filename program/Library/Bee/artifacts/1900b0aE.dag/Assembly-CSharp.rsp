@@ -356,6 +356,7 @@
 "Assets/class3th(User lnterface)/Scripts/ButtonManager.cs"
 "Assets/class4th(Prefab System)/Scripts/Dialog.cs"
 "Assets/class4th(Prefab System)/Scripts/DialogManager.cs"
+"Assets/class4th(Prefab System)/Scripts/Information.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
