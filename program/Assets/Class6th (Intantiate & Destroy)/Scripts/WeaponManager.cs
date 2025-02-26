@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
     [SerializeField] int count;
+    [SerializeField] Weapon currentWeapon;
     [SerializeField] GameObject[] weapons;
     [SerializeField] List<GameObject> weaponList;
 
@@ -17,6 +18,11 @@ public class WeaponManager : MonoBehaviour
             Equip();
 
             Shift();
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
         }
     }
 
@@ -34,6 +40,8 @@ public class WeaponManager : MonoBehaviour
         }
 
         GameObject clone = Instantiate(weapons[count++]);
+
+        currentWeapon = clone.GetComponent<Weapon>();
 
         if (weaponList.Count >= 1)
         {
@@ -54,7 +62,17 @@ public class WeaponManager : MonoBehaviour
                 weaponList[i].gameObject.SetActive(false);
             }
 
+            currentWeapon = weaponList[count % weaponList.Count].GetComponent<Weapon>();
+
             weaponList[count++ % weaponList.Count].gameObject.SetActive(true);
+        }
+    }
+
+    public void Attack()
+    {
+        if (currentWeapon != null)
+        {
+            currentWeapon.Attack();
         }
     }
 }
