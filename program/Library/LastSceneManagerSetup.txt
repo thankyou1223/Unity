@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/classf9th (Ray Cast)/Scenes/Game.unity
+- path: Assets/class10th (Sound System)/Scenes/Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
