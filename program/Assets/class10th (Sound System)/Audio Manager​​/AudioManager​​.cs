@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    private static AudioManager instance;
+
+    public static AudioManager Instance {  get { return instance; } }
+
     [SerializeField] AudioSource audiosource;
+
     void Start()
     {
-
+        if(instance == null)
+        {
+            instance = this;
+        }
     }
 
-    public void Listen(AudioClip audioclip)
+    public void Listener(AudioClip audioclip)
     {
         audiosource.PlayOneShot(audioclip);
     }

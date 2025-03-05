@@ -354,6 +354,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/class10th (Sound System)/Audio Manager​​/AudioManager​​.cs"
 "Assets/class10th (Sound System)/Audio Manager​​/Sound.cs"
+"Assets/class11th (Animation Evenr)/Scrupts/Character.cs"
 "Assets/class2th Script/Script/State.cs"
 "Assets/class3th(User lnterface)/Scripts/ButtonManager.cs"
 "Assets/class4th(Prefab System)/Scripts/Dialog.cs"
